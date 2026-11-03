@@ -1,0 +1,10 @@
+'''
+auteur: alexis
+'''
+def premierModule():
+    print("Voici mon premier module")
+premierModule()
+
+print(__doc__)
+print("contenu de la variable__name__\n", __name__)
+print("contenu de la variable__doc__\n", __doc__)
